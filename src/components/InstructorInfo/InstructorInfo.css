@@ -1,0 +1,123 @@
+.section_instructor {
+  margin-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.section_instructor__card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2rem 1rem 1.1rem 1.2rem;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.section_instructor__card:hover {
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
+}
+
+.section_instructor__img_box {
+  border-radius: 22px;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  box-shadow: 0px 15px 30px rgba(83, 221, 137, 0.25);
+  background: #53dd89;
+}
+
+.section_instructor__img_icon {
+  width: 27px;
+}
+
+.section_instructor__card_title {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 2rem 0 1rem 0;
+  color: #011f3b;
+}
+
+.section_instructor__card_subtitle {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #011f3b;
+}
+
+.section_instructor__more_details_text {
+  display: inline-block;
+  padding: 1rem 0 0 0;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  color: #011f3b;
+}
+
+.section_instructor__more_details_box {
+    display: flex;
+    align-items: baseline;
+}
+
+.section_instructor__more_details_box:hover .section_instructor__more_details_text {
+    color: #53DD89;
+}
+
+.section_instructor__more_details_box:hover .section_instructor__green_arrow_icon {
+    display: block;
+}
+.section_instructor__more_details_box:hover .section_instructor__black_arrow_icon {
+    display: none;
+}
+
+
+.section_instructor__black_arrow_icon {
+    margin-left: 9px;
+    width: 13px;
+}
+
+.section_instructor__green_arrow_icon {
+    display: none;
+    width: 13px;
+    margin-left: 9px;
+}
+
+.section_instructor__img_box2 {
+  border-radius: 22px;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  box-shadow: 0px 15px 30px rgba(56, 110, 225, 0.2);
+  background: #386ee1;
+}
+
+.section_instructor__img_box3 {
+  border-radius: 22px;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  background: #fb6504;
+  box-shadow: 0px 15px 30px rgba(251, 101, 4, 0.2);
+}
+
+.section_instructor__img_box4 {
+  border-radius: 22px;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  background: #fbba3d;
+  box-shadow: 0px 15px 30px rgba(251, 186, 61, 0.2);
+}

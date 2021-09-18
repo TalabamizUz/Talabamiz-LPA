@@ -1,0 +1,188 @@
+.houses_block {
+  margin-top: 5rem;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  padding: 4rem 0 2rem 0;
+}
+
+.houses_block .swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 0px;
+}
+.houses_block .swiper-container {
+  padding-bottom: 3rem;
+}
+
+.houses_block .swiper-pagination-bullet {
+  background: rgba(142, 143, 145, 0.36);
+  width: 18px;
+  height: 5px;
+  border-radius: 25px;
+  opacity: 0.6;
+}
+.houses_block .swiper-pagination-bullet-active {
+  background: #386ee1;
+  width: 23px;
+  height: 6px;
+  opacity: 1.5;
+}
+
+.houses_block__our_offers_text {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #53dd89;
+}
+
+.houses_block__header_title {
+  padding: 0.7rem 0;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 35px;
+  color: #011f3b;
+}
+
+.houses_block__header_subtitle {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #8791ae;
+}
+
+.houses_block__search_by_filter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.houses_block__filter_box {
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem;
+}
+
+.houses_block__filter_icon_img {
+  width: 20px;
+}
+
+.houses_block__filter_text {
+  margin-left: 10px;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #011f3b;
+}
+
+.houses_block .houses_block__card_box {
+  background: #fff;
+  margin-top: 3rem;
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  /* max-width: 22%; */
+  height: 100%;
+  padding-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.houses_block__card_img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.houses_block__card_box_info {
+  padding: 0.5rem 0.9rem 0 0.9rem;
+}
+
+.houses_block__for_whom_text {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #fb6504;
+}
+
+.houses_block__house_prices_info {
+  padding: 0.6rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.houses_block__house_type {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  color: #011f3b;
+}
+
+.houses_block__house_price_text {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  color: #53dd89;
+}
+
+.houses_block__rooms_info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.houses_block__rooms_boxes {
+  display: flex;
+  align-items: center;
+}
+
+.houses_block__rooms_floor_text {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #8791ae;
+  margin-left: 10px;
+}
+
+.houses_block__location_map {
+  padding: 1.1rem 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.houses_block__location_text {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  display: inline-block;
+  margin-left: 6px;
+  color: #8791ae;
+}
+
+.houses_block__remaining_amount_text {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #8791ae;
+  padding-top: 1rem;
+}
