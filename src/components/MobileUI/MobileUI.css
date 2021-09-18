@@ -1,0 +1,127 @@
+.mobile_ui {
+  margin-top: 3rem;
+}
+
+.mobile_ui__coming_info {
+  padding-top: 5rem;
+}
+
+.mobile_ui__intro_text {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  color: #fb6504;
+}
+
+.mobile_ui__our_mobile_box {
+  display: flex;
+  align-items: center;
+  margin-top: 1.3rem;
+}
+
+.mobile_ui__our_mobile_title {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 58px;
+  color: #011f3b;
+}
+
+.mobile_ui__smile_img {
+  width: 50px;
+  margin-left: 0.6rem;
+}
+
+.mobile_ui__paragraf {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: #8791ae;
+  padding: 1.2rem 0;
+}
+
+.mobile_ui__for_download_title {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #011f3b;
+}
+
+.mobile_ui__app_stores_img {
+  display: flex;
+  margin: 2rem 0 0 -0.8rem;
+}
+
+.mobile_ui__play_store_img {
+  max-width: 45%;
+}
+
+.mobile_ui__iphone_img {
+  max-width: 100%;
+}
+
+/* MEDIA QUERY START */
+/* ==================== */
+
+@media (min-width: 600px) and (max-width: 960px) {
+  .mobile_ui__coming_info {
+    padding-top: 1rem;
+  }
+
+  .mobile_ui__paragraf {
+    width: 60%;
+  }
+
+  .mobile_ui__play_store_img {
+    max-width: 25%;
+  }
+
+  .mobile_ui__mobile_img {
+    text-align: center;
+  }
+  .mobile_ui__iphone_img {
+    max-width: 68%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 599px) {
+  .mobile_ui__coming_info {
+    padding-top: 1rem;
+  }
+
+  .mobile_ui__our_mobile_title {
+    font-size: 2.2rem;
+    line-height: 50px;
+  }
+
+  .mobile_ui__smile_img {
+    width: 40px;
+    margin-left: 0.6rem;
+  }
+
+  .mobile_ui__paragraf {
+    width: 95%;
+  }
+
+  .mobile_ui__app_stores_img {
+    margin: 2rem 0 0 -0.7rem;
+  }
+
+  .mobile_ui__play_store_img {
+    max-width: 40%;
+  }
+
+  .mobile_ui__mobile_img {
+    text-align: center;
+  }
+  .mobile_ui__iphone_img {
+    max-width: 100%;
+  }
+}
