@@ -6,7 +6,9 @@ import Grid from "@material-ui/core/Grid";
 // import aboutImg3 from "../../assets/images/Rectangle 9.svg";
 // import smileImg from "../../assets/images/Shushing Face.svg";
 import searchIcon from "../../assets/images/search.svg";
-import illustratorImg from "../../assets/images/illustrator.svg";
+// import illustratorImg from "../../assets/images/illustrator.svg";
+import illustratorImg from "../../assets/images/illustrator2.svg";
+import mainTextImg from "../../assets/images/Main text.svg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -28,9 +30,10 @@ const AboutUs = () => {
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                <h1 className="about_us__title">
+                {/* <h1 className="about_us__title">
                   Biz bilan <span>oson uy</span> toping!
-                </h1>
+                </h1> */}
+                <img className="about_us__main_text_img" src={mainTextImg} alt="main-text" />
                 <p className="about_us__subtitle">
                   Vaqtingizni va pulingizni tejab qolish imkoniyati :)
                 </p>

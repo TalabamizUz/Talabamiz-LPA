@@ -10,7 +10,7 @@
   bottom: 0px;
 }
 .houses_block .swiper-container {
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 .houses_block .swiper-pagination-bullet {
@@ -89,12 +89,15 @@
 .houses_block .houses_block__card_box {
   background: #fff;
   margin-top: 3rem;
-  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
-  /* max-width: 22%; */
   height: 100%;
   padding-bottom: 1.2rem;
   cursor: pointer;
+  transition: all 0.2s;
+}
+
+.houses_block .houses_block__card_box:hover {
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
 }
 
 .houses_block__card_img {
@@ -185,4 +188,37 @@
   line-height: 15px;
   color: #8791ae;
   padding-top: 1rem;
+}
+
+@media (min-width: 1500px) {
+  .houses_block__rooms_info {
+    justify-content: space-around;
+  }
+  .houses_block__rooms_icon_img {
+    margin-left: -34%;
+  }
+}
+
+@media (min-width: 1640px) {
+  .houses_block__rooms_icon_img {
+    margin-left: -38%;
+  }
+}
+
+@media (min-width: 1750px) {
+  .houses_block__rooms_icon_img {
+    margin-left: -45%;
+  }
+}
+
+@media (min-width: 1850px) {
+  .houses_block__rooms_icon_img {
+    margin-left: -49%;
+  }
+}
+
+@media (min-width: 1940px) {
+  .houses_block__rooms_icon_img {
+    margin-left: -54%;
+  }
 }

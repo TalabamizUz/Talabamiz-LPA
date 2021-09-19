@@ -19,6 +19,7 @@
 .section_instructor__img_box {
   border-radius: 22px;
   width: 64px;
+  height: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +38,8 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 25px;
-  padding: 2rem 0 1rem 0;
+  /* padding: 2rem 0 1rem 0; */
+  padding: 40px 0 18px;
   color: #011f3b;
 }
 
@@ -92,6 +94,7 @@
 .section_instructor__img_box2 {
   border-radius: 22px;
   width: 64px;
+  height: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,6 +106,7 @@
 .section_instructor__img_box3 {
   border-radius: 22px;
   width: 64px;
+  height: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,6 +118,7 @@
 .section_instructor__img_box4 {
   border-radius: 22px;
   width: 64px;
+  height: 64px;
   display: flex;
   justify-content: center;
   align-items: center;

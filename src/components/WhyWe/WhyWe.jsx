@@ -38,7 +38,7 @@ const WhyWe = () => {
                 className="why_we__trust_text"
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                data-aos-delay="400"
+                data-aos-delay="300"
               >
                 Ishonmasangiz sinab ko’ring
               </p>
@@ -48,7 +48,7 @@ const WhyWe = () => {
                 className="why_we__second_box"
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                data-aos-delay="500"
+                data-aos-delay="400"
               >
                 <div className="why_we__without_makler_img">
                   <img
@@ -73,7 +73,7 @@ const WhyWe = () => {
                 className="why_we__second_box"
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                data-aos-delay="600"
+                data-aos-delay="500"
               >
                 <div className="why_we__without_makler_img2">
                   <img

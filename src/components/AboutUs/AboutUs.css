@@ -8,7 +8,7 @@
   padding-top: 1rem;
 }
 
-.about_us__title {
+/* .about_us__title {
   font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -16,10 +16,14 @@
   font-size: 3.4rem;
   line-height: 65px;
   color: #011f3b;
-}
+} */
 
-.about_us__title span {
+/* .about_us__title span {
   color: #fb6504;
+} */
+
+.about_us__main_text_img {
+  max-width: 100%;
 }
 
 .about_us__subtitle {
@@ -235,9 +239,18 @@
 /* MEDIA QUERY START */
 /* ================ */
 
-@media (min-width: 600px) and (max-width: 959px) {
+/* @media (min-width: 1724px) {
   .about_us__title {
+    width: 80%;
+  }
+} */
+
+@media (min-width: 600px) and (max-width: 959px) {
+  /* .about_us__title {
     font-size: 2.8rem;
+  } */
+  .about_us__main_text_img {
+    max-width: 65%;
   }
 
   .about_us__imgs_box {
@@ -271,9 +284,13 @@
     /* padding-top: 1.5rem; */
     padding-top: 0.5rem;
   }
-  .about_us__title {
+  /* .about_us__title {
     font-size: 2.7rem;
     line-height: 55px;
+  } */
+
+  .about_us__main_text_img {
+    max-width: 85%;
   }
 
   .about_us__search_form {
@@ -327,12 +344,18 @@
 }
 
 @media (min-width: 395px) and (max-width: 440px) {
+  .about_us__main_text_img {
+    max-width: 92%;
+  }
   .about_us__users_count_title:first-child::after {
     right: 3px;
   }
 }
 
 @media (min-width: 300px) and (max-width: 394px) {
+  .about_us__main_text_img {
+    max-width: 95%;
+  }
   .about_us__users_count_title:first-child::after {
     right: 0;
   }

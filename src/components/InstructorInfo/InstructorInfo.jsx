@@ -1,9 +1,9 @@
 import React from "react";
 import "./InstructorInfo.css";
-import homeIcon from "../../assets/images/Home.svg";
-import tickIcon from "../../assets/images/Shield Done.svg";
-import paperIcon from "../../assets/images/Paper.svg";
-import loginIcon from "../../assets/images/Login.svg";
+import homeIcon from "../../assets/images/home.svg";
+import tickIcon from "../../assets/images/shield.svg";
+import paperIcon from "../../assets/images/paper.svg";
+import loginIcon from "../../assets/images/login.svg";
 import blackArrowIcon from "../../assets/images/black-arrow-right.svg";
 import greenArrowIcon from "../../assets/images/green-arrow-right.svg";
 import Grid from "@material-ui/core/Grid";
