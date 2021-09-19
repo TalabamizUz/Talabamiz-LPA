@@ -1,0 +1,177 @@
+.why_we {
+  padding: 2rem 0;
+  background-color: #fff;
+}
+
+.why_we__choose_text {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fb6504;
+}
+
+.why_we__angry_title {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 35px;
+  color: #011f3b;
+  padding: 1rem 0;
+}
+
+.why_we__trust_text {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #8791ae;
+}
+
+.why_we__second_box {
+  display: flex;
+  align-items: center;
+}
+
+.why_we__icons_img {
+  width: 95px;
+}
+
+.why_we__without_maklers_texts {
+  margin: 0 0 0 -10px;
+  position: relative;
+  top: 21px;
+}
+
+.why_we__without_maklers_title {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #011f3b;
+}
+
+.why_we__without_maklers_subtitle {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  color: #011f3b;
+  position: relative;
+  top: 15px;
+}
+
+.why_we__contract_texts {
+  margin: 0 0 0 -10px;
+  position: relative;
+  top: 20px;
+}
+
+.why_we__contract_title {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #011f3b;
+}
+
+.why_we__contract_subtitle {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  color: #011f3b;
+  position: relative;
+  top: 15px;
+}
+
+
+/* MEDIA QUERY START*/
+/* ====================== */
+
+@media (min-width: 960px) and (max-width: 1008px) {
+  .why_we__without_makler_img {
+    margin-top: -14px;
+  }
+  .why_we__without_maklers_texts {
+    top: 25px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
+  .why_we__second_box {
+    margin-left: -1.5rem;
+  }
+}
+
+@media (min-width: 817px) and (max-width: 959px) {
+  .why_we__without_maklers_texts {
+    top: 10px;
+  }
+
+  .why_we__contract_texts {
+    top: 10px;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 816px) {
+  .why_we__without_maklers_texts {
+    top: 10px;
+  }
+  .why_we__contract_texts {
+    top: 10px;
+  }
+}
+
+@media (min-width: 709px) and (max-width: 760px) {
+  .why_we__contract_texts {
+    top: 10px;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 599px) {
+  .why_we__angry_title {
+    font-size: 25px;
+  }
+  .why_we__second_box {
+    margin: 0 0 1rem -1.5rem;
+  }
+  .why_we__without_maklers_texts {
+    top: 10px;
+  }
+
+  .why_we__contract_texts {
+    top: 10px;
+  }
+}
+
+@media (min-width: 346px) and (max-width: 373px) {
+  .why_we__angry_title {
+    font-size: 25px;
+  }
+  .why_we__second_box {
+    margin: 0 0 1rem -1.5rem;
+  }
+
+  .why_we__contract_texts {
+    top: 10px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 345px) {
+  .why_we__angry_title {
+    font-size: 25px;
+  }
+  .why_we__second_box {
+    margin: 0 0 1rem -1.5rem;
+  }
+
+  .why_we__contract_texts {
+    top: 21px;
+  }
+}

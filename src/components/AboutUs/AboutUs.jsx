@@ -1,11 +1,12 @@
 import React from "react";
 import "./AboutUs.css";
 import Grid from "@material-ui/core/Grid";
-import aboutImg1 from "../../assets/images/Rectangle 7.svg";
-import aboutImg2 from "../../assets/images/Rectangle 8.svg";
-import aboutImg3 from "../../assets/images/Rectangle 9.svg";
-import smileImg from "../../assets/images/Shushing Face.svg";
+// import aboutImg1 from "../../assets/images/Rectangle 7.svg";
+// import aboutImg2 from "../../assets/images/Rectangle 8.svg";
+// import aboutImg3 from "../../assets/images/Rectangle 9.svg";
+// import smileImg from "../../assets/images/Shushing Face.svg";
 import searchIcon from "../../assets/images/search.svg";
+import illustratorImg from "../../assets/images/illustrator.svg";
 
 const AboutUs = () => {
   return (
@@ -13,10 +14,10 @@ const AboutUs = () => {
       <div className="section_about_us">
         <div className="container">
           <Grid container direction="row" spacing={2}>
-            <Grid item xl={7} lg={7} md={7} sm={12} xs={12}>
+            <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
               <div className="about_us__text_info">
                 <h1 className="about_us__title">
-                  Biz bilan <span>sarson</span> bo’lmaysiz!
+                  Biz bilan <span>oson uy</span> toping!
                 </h1>
                 <p className="about_us__subtitle">
                   Vaqtingizni va pulingizni tejab qolish imkoniyati :)
@@ -60,9 +61,10 @@ const AboutUs = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item xl={5} lg={5} md={5} sm={12} xs={12}>
+            <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
               <div className="about_us__imgs_box">
-                <div className="about_us__imgs_box_one">
+                <img className="about_us__illustrator_image" src={illustratorImg} alt="illustrator-img" />
+                {/* <div className="about_us__imgs_box_one">
                   <div className="about_us__image">
                     <img
                       className="about_us__box_img1"
@@ -95,7 +97,7 @@ const AboutUs = () => {
                       alt="students-img"
                     />
                   </div>
-                </div>
+                </div> */}
               </div>
             </Grid>
           </Grid>

@@ -1,0 +1,36 @@
+.maklers {
+  margin-top: 6rem;
+}
+
+.maklers__man_img {
+  position: relative;
+  display: flex;
+}
+
+.maklers__angry_man_img {
+  max-width: 100%;
+}
+
+.maklers__angry_smile_img {
+  position: absolute;
+  top: 0;
+  right: 7%;
+  width: 55px;
+}
+
+.maklers__angry_texts {
+  position: relative;
+}
+
+.maklers__need_makler_text {
+  display: inline-block;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  transform: rotate(-17.78deg);
+  color: #011F3B;
+  background: linear-gradient(180deg, #011F3B 0%, rgba(1, 31, 59, 0) 100%);
+
+}

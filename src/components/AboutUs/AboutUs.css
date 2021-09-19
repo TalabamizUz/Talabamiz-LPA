@@ -1,10 +1,11 @@
 .section_about_us {
-  margin-top: 4rem;
+  margin-top: 5rem;
   padding-bottom: 2rem;
 }
 
 .about_us__text_info {
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
+  padding-top: 1rem;
 }
 
 .about_us__title {
@@ -59,7 +60,7 @@
 .about_us__search_form {
   padding-top: 1.5rem;
   display: flex;
-  width: 85%;
+  width: 95%;
   position: relative;
 }
 
@@ -110,7 +111,7 @@
   background: #386ee1;
   border-radius: 27.5px;
   margin-top: 5px;
-  padding: 10px 38px;
+  padding: 10px 31px;
   height: 45px;
   font-family: "Gilroy", sans-serif;
   font-style: normal;
@@ -162,9 +163,15 @@
 }
 
 .about_us__imgs_box {
-  display: flex;
+  /* display: flex; */
+  padding-top: 2rem;
 }
 
+.about_us__illustrator_image {
+  max-width: 100%;
+}
+
+/* 
 .about_us__imgs_box_one {
   padding: 4.5rem 1rem 0 0;
 }
@@ -202,7 +209,7 @@
 }
 
 .about_us__smile_icon {
-  /* max-width: 30%; */
+  max-width: 30%;
   width: 28px;
   object-fit: cover;
   margin-left: 9px;
@@ -223,7 +230,7 @@
 .about_us__box_img3 {
   max-width: 75%;
   object-fit: cover;
-}
+} */
 
 /* MEDIA QUERY START */
 /* ================ */
@@ -235,6 +242,7 @@
 
   .about_us__imgs_box {
     padding-top: 3rem;
+    text-align: center;
   }
 
   .about_us__imgs_box_one {
@@ -260,7 +268,8 @@
 
 @media (min-width: 300px) and (max-width: 599px) {
   .about_us__text_info {
-    padding-top: 1.5rem;
+    /* padding-top: 1.5rem; */
+    padding-top: 0.5rem;
   }
   .about_us__title {
     font-size: 2.7rem;
