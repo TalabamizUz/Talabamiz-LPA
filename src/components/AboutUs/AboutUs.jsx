@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./AboutUs.css";
 import Grid from "@material-ui/core/Grid";
 // import aboutImg1 from "../../assets/images/Rectangle 7.svg";
@@ -8,14 +8,26 @@ import Grid from "@material-ui/core/Grid";
 import searchIcon from "../../assets/images/search.svg";
 import illustratorImg from "../../assets/images/illustrator.svg";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const AboutUs = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <React.Fragment>
       <div className="section_about_us">
         <div className="container">
           <Grid container direction="row" spacing={2}>
             <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
-              <div className="about_us__text_info">
+              <div
+                className="about_us__text_info"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="100"
+              >
                 <h1 className="about_us__title">
                   Biz bilan <span>oson uy</span> toping!
                 </h1>
@@ -62,8 +74,17 @@ const AboutUs = () => {
               </div>
             </Grid>
             <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
-              <div className="about_us__imgs_box">
-                <img className="about_us__illustrator_image" src={illustratorImg} alt="illustrator-img" />
+              <div
+                className="about_us__imgs_box"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="400"
+              >
+                <img
+                  className="about_us__illustrator_image"
+                  src={illustratorImg}
+                  alt="illustrator-img"
+                />
                 {/* <div className="about_us__imgs_box_one">
                   <div className="about_us__image">
                     <img

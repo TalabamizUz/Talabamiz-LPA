@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import "./Header.css";
 import logo from "../../assets/images/lOGO.svg";
 import plusCircle from "../../assets/images/plus-circle.svg";
 import { NavLink, Link } from "react-router-dom";
-// import Container from "@material-ui/core/Container";
-import "./Header.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -173,9 +175,17 @@ const Header = () => {
 
         <div className="navbar_burger__icon">
           {click ? (
-            <i onClick={handleHide} className="fas fa-times" />
+            <FontAwesomeIcon
+              onClick={handleHide}
+              icon={faTimes}
+              className="burger_icon"
+            />
           ) : (
-            <i onClick={handleShow} className="fas fa-bars" />
+            <FontAwesomeIcon
+              onClick={handleShow}
+              icon={faBars}
+              className="burger_icon"
+            />
           )}
         </div>
       </div>

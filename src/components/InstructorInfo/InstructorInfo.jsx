@@ -42,7 +42,12 @@ const InstructorInfo = () => {
         <div className="container">
           <Grid container direction="row" spacing={3}>
             <Grid item xl={3} lg={3} md={3} sm={6} xs={12}>
-              <div className="section_instructor__card">
+              <div
+                className="section_instructor__card"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+                // data-aos-delay="200"
+              >
                 <div className="section_instructor__img_box">
                   <img
                     className="section_instructor__img_icon"
@@ -76,7 +81,12 @@ const InstructorInfo = () => {
             </Grid>
 
             <Grid item xl={3} lg={3} md={3} sm={6} xs={12}>
-              <div className="section_instructor__card">
+              <div
+                className="section_instructor__card"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+                // data-aos-delay="200"
+              >
                 <div className="section_instructor__img_box2">
                   <img
                     className="section_instructor__img_icon"
@@ -111,7 +121,12 @@ const InstructorInfo = () => {
             </Grid>
 
             <Grid item xl={3} lg={3} md={3} sm={6} xs={12}>
-              <div className="section_instructor__card">
+              <div
+                className="section_instructor__card"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+                // data-aos-delay="200"
+              >
                 <div className="section_instructor__img_box3">
                   <img
                     className="section_instructor__img_icon"
@@ -145,7 +160,12 @@ const InstructorInfo = () => {
             </Grid>
 
             <Grid item xl={3} lg={3} md={3} sm={6} xs={12}>
-              <div className="section_instructor__card">
+              <div
+                className="section_instructor__card"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+                // data-aos-delay="200"
+              >
                 <div className="section_instructor__img_box4">
                   <img
                     className="section_instructor__img_icon"

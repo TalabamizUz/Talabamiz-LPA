@@ -2,11 +2,6 @@
   margin-top: 6rem;
 }
 
-.maklers__man_img {
-  position: relative;
-  display: flex;
-}
-
 .maklers__angry_man_img {
   max-width: 100%;
 }
@@ -65,7 +60,7 @@
   }
 
   .maklers__man_img {
-    justify-content: center;
+    text-align: center;
   }
 
   .maklers__angry_img_texts {
@@ -95,7 +90,7 @@
   }
 
   .maklers__man_img {
-    justify-content: center;
+    text-align: center;
   }
 
   .maklers__angry_img_texts {

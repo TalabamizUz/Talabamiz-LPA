@@ -107,18 +107,37 @@ const Houses = () => {
     <React.Fragment>
       <div className="houses_block">
         <div className="container">
-          <p className="houses_block__our_offers_text">Bizning takliflar</p>
+          <p
+            className="houses_block__our_offers_text"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+          >
+            Bizning takliflar
+          </p>
           <Grid container direction="row" spacing={4}>
             <Grid item xl={9} lg={9} md={9} sm={8} xs={12}>
-              <h1 className="houses_block__header_title">
+              <h1
+                className="houses_block__header_title"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              >
                 So’ngi qo’shilgan uylar
               </h1>
-              <p className="houses_block__header_subtitle">
+              <p
+                className="houses_block__header_subtitle"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              >
                 Sizga quyidagi turar joylarni taklif qilamiz
               </p>
             </Grid>
             <Grid item xl={3} lg={3} md={3} sm={4} xs={12}>
-              <div className="houses_block__search_by_filter">
+              <div
+                className="houses_block__search_by_filter"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+                data-aos-delay="100"
+              >
                 <div className="houses_block__filter_box">
                   <img
                     className="houses_block__filter_icon_img"
@@ -162,7 +181,12 @@ const Houses = () => {
           >
             {housesInfo
               ? housesInfo.map((item, i) => (
-                  <SwiperSlide key={i} className="houses_block__card_box">
+                  <SwiperSlide
+                    key={i}
+                    className="houses_block__card_box"
+                    data-aos="fade-up"
+                    data-aos-duration="1100"
+                  >
                     <div className="houses_block__card_image_box">
                       <img
                         className="houses_block__card_img"
