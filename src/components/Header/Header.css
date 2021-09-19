@@ -4,6 +4,7 @@
   width: 100%;
   z-index: 9999999;
   transition: 0.3s ease;
+  height: 85px;
 }
 
 .navbar.scrol {
@@ -21,7 +22,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
+  padding: 25px 0 0 0;
 }
 
 .navbar__logo_items {
@@ -141,8 +142,14 @@
 }
 
 @media (max-width: 990px) {
+  .navbar {
+    height: 77px;
+  }
   .container {
     max-width: 92%;
+  }
+  .navbar_menu {
+    padding: 21px 0 0 0;
   }
   .navbar__nav_menu_list {
     display: none;
@@ -164,6 +171,7 @@
   .nav_menu.burger {
     top: 0;
   }
+
   .navbar__burger_logo {
     width: 190px;
   }

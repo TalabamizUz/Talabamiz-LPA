@@ -18,19 +18,129 @@
   width: 55px;
 }
 
-.maklers__angry_texts {
-  position: relative;
+.maklers__angry_img_texts {
+  padding-top: 2rem;
 }
 
-.maklers__need_makler_text {
-  display: inline-block;
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 23px;
-  transform: rotate(-17.78deg);
-  color: #011F3B;
-  background: linear-gradient(180deg, #011F3B 0%, rgba(1, 31, 59, 0) 100%);
+.maklers__angry_text_box {
+  display: flex;
+}
 
+.maklers__angry_text_box2 {
+  display: flex;
+  padding-top: 3rem;
+}
+
+.maklers__need_makler_text_img1 {
+  width: 140px;
+}
+
+.maklers__need_makler_text_img2 {
+  margin-left: 4rem;
+  width: 300px;
+}
+
+.maklers__need_makler_text_img3 {
+  width: 250px;
+}
+
+.maklers__need_makler_text_img4 {
+  margin-left: 4rem;
+  width: 190px;
+}
+
+@media (min-width: 960px) and (max-width: 1175px) {
+  .maklers__need_makler_text_img2 {
+    margin-left: 1rem;
+  }
+
+  .maklers__need_makler_text_img4 {
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
+  .maklers {
+    padding-bottom: 2rem;
+  }
+
+  .maklers__man_img {
+    justify-content: center;
+  }
+
+  .maklers__angry_img_texts {
+    padding-top: 3rem;
+  }
+
+  .maklers__angry_text_box {
+    justify-content: space-around;
+  }
+
+  .maklers__angry_text_box2 {
+    justify-content: space-around;
+  }
+
+  .maklers__need_makler_text_img2 {
+    margin-left: 0rem;
+  }
+
+  .maklers__need_makler_text_img4 {
+    margin-left: 0rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 599px) {
+  .maklers {
+    padding-bottom: 2rem;
+  }
+
+  .maklers__man_img {
+    justify-content: center;
+  }
+
+  .maklers__angry_img_texts {
+    padding-top: 3rem;
+  }
+
+  .maklers__angry_text_box {
+    display: block;
+  }
+
+  .maklers__angry_text_box2 {
+    display: block;
+  }
+
+  .maklers__need_makler_text_img1 {
+    width: 140px;
+  }
+
+  .maklers__need_makler_text_img2 {
+    margin-left: 0rem;
+    width: 270px;
+  }
+
+  .maklers__need_makler_text_img3 {
+    width: 230px;
+  }
+
+  .maklers__need_makler_text_img4 {
+    margin: 1.3rem 0 0 40%;
+    width: 190px;
+  }
+}
+
+@media (min-width: 355px) and (max-width: 475px) {
+  .maklers__need_makler_text_img2 {
+    margin: 0 0 0 20%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 354px) {
+  .maklers__need_makler_text_img2 {
+    margin: 0 0 0 9%;
+  }
+
+  .maklers__need_makler_text_img4 {
+    margin: 1.3rem 0 0 30%;
+  }
 }

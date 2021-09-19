@@ -8,14 +8,15 @@
 }
 
 .footer_img {
-  max-width: 100%;
+  /* max-width: 100%; */
+  width: 160px;
 }
 
 .footer_paragraf {
   font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 25px;
   color: #babcc4;
   padding: 0.7rem 0 2rem 0;
@@ -30,6 +31,10 @@
   margin: 0 0.6rem;
 }
 
+.networks_icon {
+  width: 20px;
+}
+
 .footer_line {
   margin-top: 2rem;
   width: 100%;
@@ -40,7 +45,7 @@
   font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 25px;
   text-align: center;
   color: #babcc4;

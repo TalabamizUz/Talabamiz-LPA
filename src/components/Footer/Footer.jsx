@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
           <div className="footer_line"></div>
           <p className="footer_policy_txt">
-            Copyright 2021. Buxoro Ziyosi | Barcha huquqlar himoyalangan
+            Copyright 2021. Talabamiz.uz | Barcha huquqlar himoyalangan
           </p>
         </div>
       </div>
