@@ -4,6 +4,8 @@ import Houses from '../../components/Houses/Houses'
 import InstructorInfo from '../../components/InstructorInfo/InstructorInfo'
 import Maklers from '../../components/Maklers/Maklers'
 import MobileUI from '../../components/MobileUI/MobileUI'
+import Partners from '../../components/Partners/Partners'
+import Question from '../../components/Question/Question'
 import WhyWe from '../../components/WhyWe/WhyWe'
 
 const MainContent = () => {
@@ -15,6 +17,8 @@ const MainContent = () => {
             <MobileUI />
             <Maklers />
             <WhyWe />
+            <Partners />
+            <Question />
         </div>
     )
 }

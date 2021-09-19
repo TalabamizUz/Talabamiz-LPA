@@ -16,19 +16,18 @@ import Grid from "@material-ui/core/Grid";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper/core";
 
-import 'swiper/swiper-bundle.min.css'
+import "swiper/swiper-bundle.min.css";
 
 // swiper core styles
-import 'swiper/swiper.min.css'
+import "swiper/swiper.min.css";
 
 // modules styles
-import 'swiper/components/pagination/pagination.min.css'
+import "swiper/components/pagination/pagination.min.css";
 
 // install Swiper modules
 SwiperCore.use([Pagination]);
 
 const Houses = () => {
-
   const housesInfo = [
     {
       houseImage: houseImg1,
@@ -135,83 +134,122 @@ const Houses = () => {
           </Grid>
 
           <Swiper
-          slidesPerView={3}
-          spaceBetween={25}
-        //   slidesPerView={"auto"}
-          loop={true}
-          pagination={{
-            clickable: true,
-          }}
-          className="mySwiper"
-          breakpoints={{
-            280: {
-              slidesPerView: 1,
-            },
-            470: {
-              slidesPerView: 1,
-            },
-            530: {
-              slidesPerView: 2,
-            },
-            766: {
-              slidesPerView: 2,
-            },
-            840: {
-              slidesPerView: 3
-            },
-          }}
-        >
-            {housesInfo ? housesInfo.map((item, i) => (
-                <SwiperSlide key={i} className="houses_block__card_box">
+            slidesPerView={3}
+            spaceBetween={25}
+            //   slidesPerView={"auto"}
+            loop={true}
+            pagination={{
+              clickable: true,
+            }}
+            className="mySwiper"
+            breakpoints={{
+              280: {
+                slidesPerView: 1,
+              },
+              470: {
+                slidesPerView: 1,
+              },
+              530: {
+                slidesPerView: 2,
+              },
+              766: {
+                slidesPerView: 2,
+              },
+              840: {
+                slidesPerView: 3,
+              },
+            }}
+          >
+            {housesInfo
+              ? housesInfo.map((item, i) => (
+                  <SwiperSlide key={i} className="houses_block__card_box">
                     <div className="houses_block__card_image_box">
-                        <img className="houses_block__card_img" src={item.houseImage} alt="house-img" />
+                      <img
+                        className="houses_block__card_img"
+                        src={item.houseImage}
+                        alt="house-img"
+                      />
                     </div>
                     <div className="houses_block__card_box_info">
-                        <p className="houses_block__for_whom_text">{item.forWhom}</p>
-                        <div className="houses_block__house_prices_info">
-                            <h4 className="houses_block__house_type">{item.houseTitle}</h4>
-                            <h4 className="houses_block__house_price_text">{item.housePrice}</h4>
+                      <p className="houses_block__for_whom_text">
+                        {item.forWhom}
+                      </p>
+                      <div className="houses_block__house_prices_info">
+                        <h4 className="houses_block__house_type">
+                          {item.houseTitle}
+                        </h4>
+                        <h4 className="houses_block__house_price_text">
+                          {item.housePrice}
+                        </h4>
+                      </div>
+                      <div className="houses_block__rooms_info">
+                        <div className="houses_block__rooms_boxes">
+                          <img
+                            className="houses_block__rooms_icon_img"
+                            src={floorIcon}
+                            alt="floor-img"
+                          />
+                          <p className="houses_block__rooms_floor_text">
+                            {item.houseFloor}
+                          </p>
                         </div>
-                        <div className="houses_block__rooms_info">
-                            <div className="houses_block__rooms_boxes">
-                                <img className="houses_block__rooms_icon_img" src={floorIcon} alt="floor-img" />
-                                <p className="houses_block__rooms_floor_text">{item.houseFloor}</p>
-                            </div>
-                            <div className="houses_block__rooms_boxes">
-                                <img className="houses_block__rooms_icon_img" src={roomIcon} alt="room-img" />
-                                <p className="houses_block__rooms_floor_text">{item.roomAmount}</p>
-                            </div>
-                            <div className="houses_block__rooms_boxes">
-                                <img className="houses_block__rooms_icon_img" src={bathroomIcon} alt="bathroom-img" />
-                                <p className="houses_block__rooms_floor_text">{item.showerAmount}</p>
-                            </div>
+                        <div className="houses_block__rooms_boxes">
+                          <img
+                            className="houses_block__rooms_icon_img"
+                            src={roomIcon}
+                            alt="room-img"
+                          />
+                          <p className="houses_block__rooms_floor_text">
+                            {item.roomAmount}
+                          </p>
                         </div>
-                        <div className="houses_block__location_map">
-                            <img className="houses_block__location_img" src={locationIcon} alt="location-img" />
-                            <span className="houses_block__location_text">{item.houseAdress}</span>
+                        <div className="houses_block__rooms_boxes">
+                          <img
+                            className="houses_block__rooms_icon_img"
+                            src={bathroomIcon}
+                            alt="bathroom-img"
+                          />
+                          <p className="houses_block__rooms_floor_text">
+                            {item.showerAmount}
+                          </p>
                         </div>
-                        <p className="houses_block__remaining_amount_text">Qolgan joylar soni: {item.remainingAmount}</p>
-                        <p className="houses_block__remaining_amount_text">Buyurtmachilar soni: {item.customerAmount}</p>
-                        <div className="section_instructor__more_details_box">
-                            <span className="section_instructor__more_details_text">
-                                Batafsil
-                            </span>
-                            <img
-                                className="section_instructor__black_arrow_icon"
-                                src={blackArrowIcon}
-                                alt="arrow-icon"
-                            />
-                            <img
-                                className="section_instructor__green_arrow_icon"
-                                src={greenArrowIcon}
-                                alt="arrow-icon"
-                            />
-                        </div>
+                      </div>
+                      <div className="houses_block__location_map">
+                        <img
+                          className="houses_block__location_img"
+                          src={locationIcon}
+                          alt="location-img"
+                        />
+                        <span className="houses_block__location_text">
+                          {item.houseAdress}
+                        </span>
+                      </div>
+                      <p className="houses_block__remaining_amount_text">
+                        Qolgan joylar soni: {item.remainingAmount}
+                      </p>
+                      <p className="houses_block__remaining_amount_text">
+                        Buyurtmachilar soni: {item.customerAmount}
+                      </p>
+                      <div className="section_instructor__more_details_box">
+                        <span className="section_instructor__more_details_text">
+                          Batafsil
+                        </span>
+                        <img
+                          className="section_instructor__black_arrow_icon"
+                          src={blackArrowIcon}
+                          alt="arrow-icon"
+                        />
+                        <img
+                          className="section_instructor__green_arrow_icon"
+                          src={greenArrowIcon}
+                          alt="arrow-icon"
+                        />
+                      </div>
                     </div>
-                </SwiperSlide>
-            )) : ""}
-        </Swiper>
-          
+                  </SwiperSlide>
+                ))
+              : ""}
+          </Swiper>
         </div>
       </div>
     </React.Fragment>

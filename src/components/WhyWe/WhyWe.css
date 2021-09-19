@@ -1,5 +1,5 @@
 .why_we {
-  padding: 2rem 0;
+  padding: 2.5rem 0;
   background-color: #fff;
 }
 
@@ -104,6 +104,9 @@
 }
 
 @media (min-width: 600px) and (max-width: 959px) {
+  .why_we {
+    padding: 2.5rem 0 3.5rem 0;
+  }
   .why_we__second_box {
     margin-left: -1.5rem;
   }
