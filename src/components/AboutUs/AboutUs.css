@@ -1,5 +1,5 @@
 .section_about_us {
-  margin-top: 5rem;
+  margin-top: 6rem;
   padding-bottom: 2rem;
 }
 
@@ -7,20 +7,6 @@
   /* padding-top: 2rem; */
   padding-top: 1rem;
 }
-
-/* .about_us__title {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 53px;
-  font-size: 3.4rem;
-  line-height: 65px;
-  color: #011f3b;
-} */
-
-/* .about_us__title span {
-  color: #fb6504;
-} */
 
 .about_us__main_text_img {
   max-width: 100%;
@@ -110,20 +96,12 @@
 .about_us__search_btn {
   position: absolute;
   right: 6px;
-  border: none;
-  outline: none;
-  background: #386ee1;
-  border-radius: 27.5px;
+  font-weight: bold;
+  font-size: 13px;
   margin-top: 5px;
   padding: 10px 31px;
   height: 45px;
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 13px;
   line-height: 21px;
-  color: #ffffff;
-  cursor: pointer;
 }
 
 .about_us__users_amoung_info {
@@ -239,16 +217,15 @@
 /* MEDIA QUERY START */
 /* ================ */
 
-/* @media (min-width: 1724px) {
-  .about_us__title {
-    width: 80%;
+
+@media (min-width: 1600px) {
+  .section_about_us {
+    margin-top: 9rem;
   }
-} */
+}
+
 
 @media (min-width: 600px) and (max-width: 959px) {
-  /* .about_us__title {
-    font-size: 2.8rem;
-  } */
   .about_us__main_text_img {
     max-width: 65%;
   }
@@ -281,13 +258,8 @@
 
 @media (min-width: 300px) and (max-width: 599px) {
   .about_us__text_info {
-    /* padding-top: 1.5rem; */
     padding-top: 2rem;
   }
-  /* .about_us__title {
-    font-size: 2.7rem;
-    line-height: 55px;
-  } */
 
   .about_us__main_text_img {
     max-width: 85%;

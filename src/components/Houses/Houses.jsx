@@ -184,10 +184,8 @@ const Houses = () => {
                   <SwiperSlide
                     key={i}
                     className="houses_block__card_box"
-                    // data-aos="fade-up"
-                    // data-aos-duration="1100"
                   >
-                    <div className="houses_block__card_image_box">
+                    <div className="houses_block__card_image_box houses_block__img_hover_zoom">
                       <img
                         className="houses_block__card_img"
                         src={item.houseImage}

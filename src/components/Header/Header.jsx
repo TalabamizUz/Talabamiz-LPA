@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
+import '../../buttons.css'
 import logo from "../../assets/images/lOGO.svg";
 import plusCircle from "../../assets/images/plus-circle.svg";
 import { NavLink, Link } from "react-router-dom";
@@ -146,7 +147,7 @@ const Header = () => {
             <div className="navbar_choose_language">O'zbek</div>
             <div className="navbar__sign_up_title">Kirish /</div>
             <div className="navbar__sign_up_title"> Ro’yxatdan o’tish</div>
-            <button className="navbar__ennounce_btn">
+            <button className="navbar__ennounce_btn btn-hover color-9">
               <img
                 className="navbar__pluc_circle_icon"
                 src={plusCircle}
@@ -162,7 +163,7 @@ const Header = () => {
           <div className="navbar__sign_up_title">Kirish / </div>
           <div className="navbar__sign_up_title">Ro’yxatdan o’tish</div>
           <div className="navbar__ennounce_button">
-            <button className="navbar__ennounce_btn">
+            <button className="navbar__ennounce_btn btn-hover color-9">
               <img
                 className="navbar__pluc_circle_icon"
                 src={plusCircle}

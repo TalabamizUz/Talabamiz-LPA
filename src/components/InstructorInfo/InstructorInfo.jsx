@@ -9,33 +9,7 @@ import greenArrowIcon from "../../assets/images/green-arrow-right.svg";
 import Grid from "@material-ui/core/Grid";
 
 const InstructorInfo = () => {
-  //   const info = [
-  //     {
-  //       blogImage: homeIcon,
-  //       blogTitle: "Mos uyni izlang",
-  //       blogText:
-  //         "Turar joyingizni toping. Sizga manzur bo’lishi uchun fotosurat va tavsiflarni tekshiring",
-  //     },
-  //     {
-  //       blogImage: tickIcon,
-  //       blogTitle: "Ro’yxatdan o’ting",
-  //       blogText:
-  //         "Tizimdan ro’yxatdan o’ting va barcha shartlarga rozi ekanligingizni tasdiqlating",
-  //     },
-  //     {
-  //       blogImage: paperIcon,
-  //       blogTitle: "Shartnoma tuzing",
-  //       blogText:
-  //         "Mijoz bilan ikki tomonlama shartnoma imzolang va ijara to’lovni amalga oshiring",
-  //     },
-  //     {
-  //       blogImage: loginIcon,
-  //       blogTitle: "Xush kelibsiz",
-  //       blogText:
-  //         "Va nixoyat siz ortiqcha ovvoragarchiliklarsiz uy topdingiz va vaqtingizni tejab qoldingiz :)",
-  //     },
-  //   ];
-
+  
   return (
     <React.Fragment>
       <div className="section_instructor">

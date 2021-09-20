@@ -1,14 +1,11 @@
 import React, { useEffect } from "react";
 import "./AboutUs.css";
+import '../../buttons.css'
 import Grid from "@material-ui/core/Grid";
-// import aboutImg1 from "../../assets/images/Rectangle 7.svg";
-// import aboutImg2 from "../../assets/images/Rectangle 8.svg";
-// import aboutImg3 from "../../assets/images/Rectangle 9.svg";
-// import smileImg from "../../assets/images/Shushing Face.svg";
 import searchIcon from "../../assets/images/search.svg";
-// import illustratorImg from "../../assets/images/illustrator.svg";
 import illustratorImg from "../../assets/images/illustrator2.svg";
 import mainTextImg from "../../assets/images/Main text.svg";
+import CountUp from "react-countup";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -30,10 +27,11 @@ const AboutUs = () => {
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                {/* <h1 className="about_us__title">
-                  Biz bilan <span>oson uy</span> toping!
-                </h1> */}
-                <img className="about_us__main_text_img" src={mainTextImg} alt="main-text" />
+                <img
+                  className="about_us__main_text_img"
+                  src={mainTextImg}
+                  alt="main-text"
+                />
                 <p className="about_us__subtitle">
                   Vaqtingizni va pulingizni tejab qolish imkoniyati :)
                 </p>
@@ -58,17 +56,21 @@ const AboutUs = () => {
                       alt="search-icon"
                     />
                   </span>
-                  <button className="about_us__search_btn">Qidirish</button>
+                  <button className="about_us__search_btn btn-hover color-9">Qidirish</button>
                 </div>
                 <div className="about_us__users_amoung_info">
                   <div className="about_us__users_count_title">
-                    <h1 className="about_us__users_count_number">105</h1>
+                    <h1 className="about_us__users_count_number">
+                      <CountUp end={105} duration={4} />
+                    </h1>
                     <span className="about_us__users_count_paragraf">
                       mingdan ortiq talabalar
                     </span>
                   </div>
                   <div className="about_us__users_count_title">
-                    <h1 className="about_us__users_count_number">55</h1>
+                    <h1 className="about_us__users_count_number">
+                      <CountUp end={55} duration={4} />
+                    </h1>
                     <span className="about_us__users_count_paragraf">
                       mingdan ortiq uy beruvchilar
                     </span>
